@@ -1,4 +1,4 @@
-let button = document.querySelector('.button');
+let button = document.querySelector('.button2');
 let inputValue = document.querySelector('.inputValue');
 let name = document.querySelector('.name');
 let desc = document.querySelector('.desc');
@@ -21,6 +21,19 @@ button.addEventListener('click', function(){
         
     })
 })
+
+let buttonClick = document.querySelector(".button2");
+buttonClick.addEventListener("click", function(){
+   let bttn = document.createElement("button");
+   bttn.setAttribute("class", "red");
+
+   bttn.innerHTML = inputValue.value;
+   document.querySelector(".newbutton").appendChild(bttn);
+
+})
+
+
+
     
 
 
