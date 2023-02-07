@@ -1,11 +1,39 @@
+
+body{
+    background-color:#D3ECF7 ;
+}
+
+
 .input{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: 50px;
     padding: 5px;
 }
-input [type="text"]{
-    width: 100px;
+.inputValue{
+    width: 200px;
     border-color: 1px solid black;
 }
+
+.button{
+    background-color: #A8EB12;
+    width: 200px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+ background-color: #051937;
+ color: #A8EB12;
+ width: 40%;
+    
+}
+
+
+
